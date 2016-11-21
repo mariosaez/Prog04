@@ -13,15 +13,15 @@ public class Ejercicio01 {
 		// TODO Auto-generated method stub
 		Scanner t= new Scanner (System.in);
 		int  x,a;
-		String f;
+		String frase;
 			System.out.println("Escriba su frase de como maximo 80 caracteres");
-			f = t.nextLine();
+			frase = t.nextLine();
 	
-	if(f.length()<=80){
-		for(x=0;x<f.length();x++){
+	if(frase.length()<=80){
+		for(x=0;x<frase.length();x++){
 			for(a=0;a<=x;a++){
 				
-			System.out.print(f.charAt(a));
+			System.out.print(frase.charAt(a));
 			}
 			System.out.println("");
 		}
